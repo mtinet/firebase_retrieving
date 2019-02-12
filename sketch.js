@@ -72,8 +72,7 @@ function draw() {
 function submitScore() {
   var data = {
     initials: initialInput.value(),
-    score: score,
-    kjh: 100
+    score: score
   }
   console.log(data);
   var ref = database.ref('scores');
