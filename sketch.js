@@ -72,7 +72,7 @@ function draw() {
 function submitScore() {
   var data = {
     initials: initialInput.value(),
-    score: score
+    score: score,
     kjh: 100
   }
   console.log(data);
